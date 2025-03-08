@@ -300,3 +300,5 @@ SELECT
 ORDER BY
   predicted_will_buy_on_return_visit DESC;
 ```
+---
+© Mateus Silva | 2025
