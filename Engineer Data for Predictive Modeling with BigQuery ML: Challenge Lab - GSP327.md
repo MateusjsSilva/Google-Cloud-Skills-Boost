@@ -61,3 +61,5 @@ SELECT * FROM ML.PREDICT(MODEL taxirides.MODEL_NAME,(
   SELECT * FROM taxirides.report_prediction_data)
 )
 ```
+---
+© Mateus Silva | 2025
