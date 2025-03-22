@@ -106,24 +106,5 @@ cd ~/pet-theory/lab07/prod-frontend-billing
 gcloud builds submit --tag gcr.io/$DEVSHELL_PROJECT_ID/frontend-prod:0.1
 gcloud run deploy $FRONTEND_PRODUCTION_SERVICE --image gcr.io/$DEVSHELL_PROJECT_ID/frontend-prod:0.1 --quiet
 ```
-
-## Task 10: Clean Up Unnecessary Files
-Remove unwanted files from the project directory.
-
-### Commands:
-```sh
-remove_files() {
-    for file in *; do
-        if [[ "$file" == gsp* || "$file" == arc* || "$file" == shell* ]]; then
-            if [[ -f "$file" ]]; then
-                rm "$file"
-                echo "File removed: $file"
-            fi
-        fi
-    done
-}
-remove_files
-```
-
 ---
 © Mateus Silva | 2025
