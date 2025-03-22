@@ -9,6 +9,17 @@ You have joined a cloud development team responsible for deploying and managing 
 - Optimize resource usage and follow naming conventions.
 - Deploy services with appropriate IAM configurations.
 
+### Export the Following Environment Variables in CloudShell:
+```sh
+export PUBLIC_BILLING_SERVICE=
+export FRONTEND_STAGING_SERVICE=
+export PRIVATE_BILLING_SERVICE=
+export BILLING_SERVICE_ACCOUNT=
+export BILLING_PROD_SERVICE=
+export FRONTEND_SERVICE_ACCOUNT=
+export FRONTEND_PRODUCTION_SERVICE=
+```
+
 ## Task 1: Configure Google Cloud Environment
 Before deploying any service, configure the Google Cloud project and set the default region.
 
